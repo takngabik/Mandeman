@@ -1,0 +1,45 @@
+# Python backend
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.env
+.venv
+env/
+venv/
+ENV/
+*.log
+db.sqlite3
+static/
+media/
+local_settings.py
+dist/
+build/
+*.egg-info/
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+coverage.xml
+*.cover
+
+# React/Node.js (UI folder)
+Ui/node_modules/
+Ui/.pnp
+Ui/.pnp.js
+Ui/coverage/
+Ui/build/
+Ui/.DS_Store
+Ui/.env.local
+Ui/.env.development.local
+Ui/.env.test.local
+Ui/.env.production.local
+Ui/npm-debug.log*
+Ui/yarn-debug.log*
+Ui/yarn-error.log*
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
