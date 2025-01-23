@@ -15,8 +15,8 @@ const Sidebar: React.FC<SidebarProps> = () => {
       <div className="flex-grow overflow-y-auto">
         <nav className="mt-5">
           <Link
-            to="/"
-            className={`flex items-center px-6 py-3 transition-colors duration-200 ${location.pathname === '/' ? 'text-blue-600 bg-blue-50 border-r-4 border-blue-600' : 'text-gray-700 hover:bg-gray-100'
+            to="/index"
+            className={`flex items-center px-6 py-3 transition-colors duration-200 ${location.pathname === '/index' ? 'text-blue-600 bg-blue-50 border-r-4 border-blue-600' : 'text-gray-700 hover:bg-gray-100'
               }`}
           >
             <i className="bi bi-house-door text-lg mr-3"></i>
