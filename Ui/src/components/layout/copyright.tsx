@@ -10,7 +10,7 @@ const Copyright: React.FC<CopyrightProps> = ({
   year = new Date().getFullYear()
 }) => {
   return (
-    <div className="text-sm text-gray-400 lowercase">
+    <div className="text-xs text-gray-400 text-center">
       &copy; {year} {companyName}. Semua hak dilindungi undang-undang.
     </div>
   );
