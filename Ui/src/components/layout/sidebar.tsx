@@ -39,7 +39,7 @@ const Sidebar: React.FC<SidebarProps> = () => {
             <span>Surat Keluar</span>
           </Link>
           <Link
-            to="/setting"
+            to="/config"
             className={`flex items-center px-6 py-3 transition-colors duration-200 ${location.pathname === '/setting' ? 'text-blue-600 bg-blue-50 border-r-4 border-blue-600' : 'text-gray-700 hover:bg-gray-100'
               }`}
           >

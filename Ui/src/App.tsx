@@ -4,6 +4,7 @@ import Layout from './components/layout/Layout';
 import Login from './pages/Login';
 import Masuk from './pages/Masuk';
 import Keluar from './pages/Keluar';
+import Config from './pages/Config';
 
 const ProtectedRoute = ({ children }: { children: React.ReactNode }) => {
   const isAuthenticated = true;
@@ -28,7 +29,7 @@ function App() {
           <Route path="index" element={<Dashboard />} />
           <Route path="masuk" element={<Masuk />} />
           <Route path="keluar" element={<Keluar />} />
-          <Route path="config" element={<div>Settings Page</div>} />
+          <Route path="config" element={<Config />} />
         </Route>
         <Route path="login" element={<Login />} />
       </Routes>
